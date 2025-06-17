@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>CDM Home - Carte de visite</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background: #3d414c;
+            color: #fff;
+            font-family: 'Playfair Display', serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 420px;
+            margin: 30px auto;
+            background: #3d414c;
+            border-radius: 20px;
+            box-shadow: 0 0 16px #2226;
+            padding: 30px 20px 20px 20px;
+        }
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+        .logo img {
+            max-width: 220px;
+            border-radius: 12px;
+            box-shadow: 0 0 12px #2228;
+            background: #3d414c;
+        }
+        .title {
+            text-align: center;
+            font-size: 2.2em;
+            font-weight: 700;
+            letter-spacing: 2px;
+            margin: 8px 0 15px 0;
+            color: #fff;
+        }
+        .links {
+            margin-top: 22px;
+        }
+        .link-item {
+            display: flex;
+            align-items: center;
+            background: #454a57;
+            border-radius: 10px;
+            margin: 10px 0;
+            padding: 12px 16px;
+            transition: background 0.2s;
+        }
+        .link-item:hover {
+            background: #24262b;
+        }
+        .link-item i, .link-item img.icon {
+            font-size: 1.7em;
+            margin-right: 18px;
+            width: 30px;
+            text-align: center;
+        }
+        .fa-linkedin {color: #0e76a8;}
+        .fa-facebook {color: #3b5998;}
+        .fa-instagram {color: #e1306c;}
+        .fa-tiktok {color: #010101;}
+        .fa-youtube {color: #ff0000;}
+        .fa-envelope {color: #7b8494;}
+        .fa-globe {color: #1790cf;}
+        .fa-phone, .fa-mobile-alt {color: #505767;}
+        .link-label {
+            flex: 1;
+            font-size: 1.15em;
+            letter-spacing: 0.5px;
+            text-decoration: none;
+            color: #fff;
+        }
+        a.link-label {
+            color: #fff;
+            text-decoration: none;
+        }
+        a.link-label:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 500px) {
+            .container { padding: 16px 3vw; }
+            .logo img { max-width: 95vw; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="LOGO.jpg" alt="CDM Home Logo">
+        </div>
+        <div class="title">CDM Home</div>
+        <div class="links">
+            <div class="link-item">
+                <i class="fab fa-linkedin"></i>
+                <a class="link-label" href="https://www.linkedin.com/company/cdm-home/?viewAsMember=true" target="_blank">LinkedIn</a>
+            </div>
+            <div class="link-item">
+                <i class="fab fa-facebook"></i>
+                <a class="link-label" href="https://www.facebook.com/profile.php?id=61575061442672&locale=fr_FR" target="_blank">Facebook</a>
+            </div>
+            <div class="link-item">
+                <i class="fab fa-instagram"></i>
+                <a class="link-label" href="https://www.instagram.com/cdmh.ome/" target="_blank">Instagram</a>
+            </div>
+            <div class="link-item">
+                <i class="fab fa-tiktok"></i>
+                <a class="link-label" href="https://www.tiktok.com/@cdmhome?is_from_webapp=1&sender_device=pc" target="_blank">TikTok</a>
+            </div>
+            <div class="link-item">
+                <i class="fab fa-youtube"></i>
+                <a class="link-label" href="https://www.youtube.com/@CDMHome" target="_blank">YouTube</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-envelope"></i>
+                <a class="link-label" href="mailto:contactprojet@cdm-home.fr">contactprojet@cdm-home.fr</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-globe"></i>
+                <a class="link-label" href="https://cdm-home.fr/" target="_blank">Site internet</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-phone"></i>
+                <a class="link-label" href="tel:0988414270">09.88.41.42.70</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-mobile-alt"></i>
+                <a class="link-label" href="tel:0661604343">06.61.60.43.43</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
