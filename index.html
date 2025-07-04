@@ -47,7 +47,7 @@
         }
         .link-item {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             background: #454a57;
             border-radius: 10px;
             margin: 10px 0;
@@ -57,12 +57,11 @@
         .link-item:hover {
             background: #24262b;
         }
-        .link-icon, .link-item i, .link-item img.icon {
+        .link-item i, .link-item img.icon {
             font-size: 1.7em;
             margin-right: 18px;
             width: 30px;
             text-align: center;
-            flex-shrink: 0;
         }
         .fa-linkedin {color: #0e76a8;}
         .fa-facebook {color: #3b5998;}
@@ -86,17 +85,9 @@
         a.link-label:hover {
             text-decoration: underline;
         }
-        .bottom-image {
-            width: 100%;
-            display: block;
-            margin: 44px auto 0 auto;
-            max-width: 100%;
-            height: auto;
-        }
         @media (max-width: 500px) {
             .container { padding: 16px 3vw; }
             .logo img { max-width: 95vw; }
-            .bottom-image { margin-top: 25px; }
         }
     </style>
 </head>
@@ -108,19 +99,42 @@
         <div class="title">CDM Home</div>
         <div class="links">
             <div class="link-item">
-                <i class="fab fa-linkedin link-icon"></i>
-                <a class="link-label" href="https://www.linkedin.com/in/tonprofil" target="_blank">LinkedIn</a>
+                <i class="fab fa-linkedin"></i>
+                <a class="link-label" href="https://www.linkedin.com/company/cdm-home/?viewAsMember=true" target="_blank">LinkedIn</a>
             </div>
-            <!-- Tu peux dupliquer ce bloc pour d'autres réseaux ou contacts -->
-            <!--
             <div class="link-item">
-                <i class="fas fa-envelope link-icon"></i>
-                <a class="link-label" href="mailto:exemple@email.com">exemple@email.com</a>
+                <i class="fab fa-facebook"></i>
+                <a class="link-label" href="https://www.facebook.com/profile.php?id=61575061442672&locale=fr_FR" target="_blank">Facebook</a>
             </div>
-            -->
+            <div class="link-item">
+                <i class="fab fa-instagram"></i>
+                <a class="link-label" href="https://www.instagram.com/cdmh.ome/" target="_blank">Instagram</a>
+            </div>
+            <div class="link-item">
+                <i class="fab fa-tiktok"></i>
+                <a class="link-label" href="https://www.tiktok.com/@cdmhome?is_from_webapp=1&sender_device=pc" target="_blank">TikTok</a>
+            </div>
+            <div class="link-item">
+                <i class="fab fa-youtube"></i>
+                <a class="link-label" href="https://www.youtube.com/@CDMHome" target="_blank">YouTube</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-envelope"></i>
+                <a class="link-label" href="mailto:contactprojet@cdm-home.fr">contactprojet@cdm-home.fr</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-globe"></i>
+                <a class="link-label" href="https://cdm-home.fr/" target="_blank">Site internet</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-phone"></i>
+                <a class="link-label" href="tel:0988414270">09.88.41.42.70</a>
+            </div>
+            <div class="link-item">
+                <i class="fa fa-mobile-alt"></i>
+                <a class="link-label" href="tel:0661604343">06.61.60.43.43</a>
+            </div>
         </div>
-        <!-- Optionnel : image ou illustration en bas de carte -->
-        <!-- <img class="bottom-image" src="bottom-image.jpg" alt="Illustration"> -->
     </div>
 </body>
 </html>
