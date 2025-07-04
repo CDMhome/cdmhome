@@ -86,50 +86,6 @@
         a.link-label:hover {
             text-decoration: underline;
         }
-        /* Sous-liens (emails et téléphones doubles) - VERSION FINE */
-        .sub-links {
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-            flex: 1;
-            margin-top: 5px;
-        }
-        .sub-link {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            margin: 0 0 0 0;
-        }
-        .sub-logo {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-size: 1em;
-            margin-right: 8px;
-            border-radius: 50%;
-            width: 20px;
-            height: 20px;
-            text-align: center;
-            background: #4e5159;
-            color: #e0e0e0;
-            border: none;
-            flex-shrink: 0;
-        }
-        .sub-value {
-            color: #fff;
-            font-size: 1.04em;
-            opacity: 0.97;
-            text-decoration: none;
-            letter-spacing: 0.1px;
-        }
-        .linkedin-label {
-            font-size: 1.11em;
-            font-weight: 600;
-            color: #fff;
-            margin-bottom: 6px;
-            margin-left: 1px;
-            letter-spacing: 0.1px;
-        }
         .bottom-image {
             width: 100%;
             display: block;
@@ -151,9 +107,20 @@
         </div>
         <div class="title">CDM Home</div>
         <div class="links">
-            <!-- LinkedIn double -->
             <div class="link-item">
                 <i class="fab fa-linkedin link-icon"></i>
-                <div style="flex:1">
-                    <div*
-
+                <a class="link-label" href="https://www.linkedin.com/in/tonprofil" target="_blank">LinkedIn</a>
+            </div>
+            <!-- Tu peux dupliquer ce bloc pour d'autres réseaux ou contacts -->
+            <!--
+            <div class="link-item">
+                <i class="fas fa-envelope link-icon"></i>
+                <a class="link-label" href="mailto:exemple@email.com">exemple@email.com</a>
+            </div>
+            -->
+        </div>
+        <!-- Optionnel : image ou illustration en bas de carte -->
+        <!-- <img class="bottom-image" src="bottom-image.jpg" alt="Illustration"> -->
+    </div>
+</body>
+</html>
